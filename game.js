@@ -1,6 +1,6 @@
 'use strict';
 // OUTBREAK ZERO — fictional, simplified strategy simulation. Tweak values in CONFIG.
-const CONFIG={daySeconds:2.4,startingMoney:120,startingTrust:85,dailyIncome:5,baseSpread:[.17,.13],travelSpread:[.045,.06],recovery:[.08,.065],researchCost:12,winThreshold:0.5};
+const CONFIG={daySeconds:2.4,startingMoney:120,startingTrust:85,dailyIncome:5,baseSpread:[.34,.26],travelSpread:[.09,.12],recovery:[.08,.065],researchCost:12,winThreshold:0.5};
 const CITY_DATA=[['Seattle',115,125,4],['Los Angeles',100,205,8],['New York',245,150,9],['Mexico City',195,270,7],['London',435,112,7],['Lagos',437,310,8],['Cairo',535,247,6],['Mumbai',655,278,10],['Tokyo',795,175,9],['Sydney',795,390,5],['São Paulo',335,365,8],['Singapore',720,340,6]];
 const LINKS=[[0,1],[0,2],[1,3],[2,4],[2,3],[3,10],[4,5],[4,6],[4,8],[5,6],[5,10],[6,7],[7,8],[7,11],[8,9],[9,11],[10,3],[11,9]];
 const DISEASES=[{name:'Crimson Fever',color:'#fa6475'},{name:'Blue Lung',color:'#4cafff'}];
