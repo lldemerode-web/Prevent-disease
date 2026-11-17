@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Outbreak Zero logo">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#112e48"/><stop offset="1" stop-color="#07131f"/></linearGradient><linearGradient id="ring" x2="1" y2="1"><stop stop-color="#55e2dd"/><stop offset="1" stop-color="#2384bc"/></linearGradient></defs>
+<rect width="256" height="256" rx="53" fill="url(#bg)"/>
+<circle cx="128" cy="128" r="89" fill="none" stroke="#28516a" stroke-width="2" stroke-dasharray="5 9"/>
+<circle cx="128" cy="128" r="76" fill="none" stroke="url(#ring)" stroke-width="13" stroke-dasharray="400 80" stroke-linecap="round" transform="rotate(-85 128 128)"/>
+<circle cx="128" cy="128" r="52" fill="#12334b" stroke="#65d4dc" stroke-width="2"/>
+<path d="M77 128h102 M128 77v102" stroke="#6ac5d2" stroke-opacity=".35" stroke-width="2"/>
+<path d="M92 100c12-17 34-24 52-15 12 6 19 14 23 26l-18-4-12 12-13-7-12 16-19-4zM100 144l19-7 16 12 21-4-8 22c-22 12-42 5-48-23z" fill="#3b8197" opacity=".8"/>
+<path d="M128 103v50 M103 128h50" stroke="#d4fbf6" stroke-width="12" stroke-linecap="round"/>
+<circle cx="190" cy="64" r="16" fill="#ee6577" stroke="#ffb2b9" stroke-width="3"/>
+<circle cx="190" cy="64" r="5" fill="#fff1f2"/>
+<path d="M190 39v9M190 80v9M165 64h9M206 64h9M172 46l6 6M202 76l6 6M208 46l-6 6M178 76l-6 6" stroke="#ee6577" stroke-width="4" stroke-linecap="round"/>
+</svg>
